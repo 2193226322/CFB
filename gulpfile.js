@@ -1,7 +1,8 @@
 // 引入gulp
 var gulp = require('gulp');
-var plumber = require('gulp-plumber');
 
+// 防止js报错是gulp停止工作
+var plumber = require('gulp-plumber');
 
 // 引入压缩html的插件
 var gulpHtml = require('gulp-htmlmin');
@@ -12,8 +13,12 @@ var uglify = require('gulp-uglify');
 // 引入压缩css的插件
 var cssnano = require('gulp-cssnano');
 
-// 引入压缩图片的插件gulp-imagemin
 var imgmin = require('gulp-imagemin');
+
+// 引入sass预编译
+var sass = require('gulp-sass');
+
+
 
 // *****浏览器同步
 var browserSync = require('browser-sync');
@@ -49,7 +54,8 @@ gulp.task('js',function(){
 });
 // 第三个任务css
 gulp.task('style',function(){
-    gulp.src('src/css/**/*.css')
+    gulp.src('src/css/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
     .pipe(cssnano())
     .pipe(gulp.dest('dist/css'))
     // *****
@@ -81,7 +87,7 @@ gulp.task('servers',function(){
 
     gulp.watch('src/*.html',['html']);
     gulp.watch('src/js/**/*.js',['js']);
-    gulp.watch('src/css/*.css',['style']);
+    gulp.watch('src/css/*.scss',['style']);
 });
 
 // 使用一条命令执行所有任务
