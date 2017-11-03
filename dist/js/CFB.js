@@ -1,0 +1,1 @@
+var one66=document.querySelector(".one66"),one99=document.querySelector(".one99"),op=document.querySelectorAll(".one99 ul li");one66.onmouseenter=function(e){var o=window.event||e;one99.style.display="block",o.stopPropagation()},document.onmouseleave=function(){one99.style.display="none"};

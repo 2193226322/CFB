@@ -1,0 +1,95 @@
+body{
+	background:#AC2165;
+}
+.one{
+	position: fixed;
+    width: 33px;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background:#196A7C;
+}
+.one1{
+	position: fixed;
+    width: 33px;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    background:#196A7C;
+}
+.one2{
+	border: 0px red solid;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.one3{
+	width: 700px;
+    height: 718px;
+    border: 0px red solid;
+    margin: 0 auto;
+    padding: 25px 0 0;
+}
+.one4{
+	font-size: 56px;
+	color:#fff;
+	margin-top:-23px;
+	margin-left:91px;
+}
+.one5{
+	font-size: 40px;
+	color:#fff;
+	margin-top:-61px;
+	margin-left:91px;
+}
+.one6{
+	border: 0px red solid;
+    width: 591px;
+    margin: 50px 64px;
+    line-height:37px;
+}
+.one7 a{
+	color: #e1bfcd;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0 7px;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial, SimSun, sans-serif;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    text-align:center;
+}
+.one8{
+    font-size: 19px;
+    padding: 0 7px;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial, SimSun, sans-serif;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    text-align:center;
+}
+.one8 a{
+	color: #e1bfcd;
+	text-decoration: none;
+}
+.one9{
+	float:left;
+	margin:1px -61px;
+}
+.one9 li{
+	list-style: none;
+	float:left;
+}
+.one10{
+	width:251px;
+	height:85px;
+	background:#961C58;
+	margin:0 0;
+}
+.one10 img{
+	margin:13px 57px;
+}
