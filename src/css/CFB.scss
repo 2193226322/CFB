@@ -20,9 +20,8 @@
     margin: 0 auto;
     position: relative;
 }
-.one3{
+.one3 img{
 	height: 640px;
-    background: url(../出发吧/content1_bg-7cb3991281eedd065030e80f7ffd4634.jpg);
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
@@ -39,14 +38,13 @@
     top:0px;
     margin-left:202px;
 }
-.one5 div{
+.one5 img{
 	display: block;
     float: left;
     width: 124px;
     height: 48px;
     overflow: hidden;
     text-indent: -999em;
-    background: url(../出发吧/download.png);
     background-size: 100% 100%;
     margin-top: 36px;
 }
@@ -101,13 +99,12 @@
     right: 0;
     top: 0;
 }
-.one6 div button i{
+.one6 div button i img{
 	width: 30px;
     height: 30px;
     position: absolute;
     right: 10px;
     top: 14px;
-    background: url(../出发吧/icon-3518a8793473b0760bf300374c9eb766.png);
 }
 .one7{
 	display: inline-block;
@@ -146,7 +143,7 @@
 	height:0px;
 	border:0.3px solid #ccc;
 }
-.one9{
+.one9 img{
 	position: relative;
 	top:-340px;
     width: 382px;
@@ -154,41 +151,41 @@
     margin-top: 0px;
     margin-left: 601px;
     display: inline-block;
-    background: url(../出发吧/text-c9dd190a266de72d33a9876555306c72.png);
     background-repeat: no-repeat;
 	cursor:pointer;
 }
-.one10{
-    width: 100%;
+.one10 img{
     height: 480px;
     min-width: 980px;
+    margin:-132px 0;
 }
-.one11{
-    width: 50%;
-    float: left;
-    height: 480px;
-    background: url(../出发吧/bg1_a-7de9f3b8f34797bb1b54fe6fd514d7e5.png);
-    text-align: center;
-    margin:-132px 0px;
-}
-.one12{
-    width: 100%;
-    float: right;
-    height: 480px;
+.one11 .one12 img{
+    position:absolute;
+    top:682px;
+    left:185px;
 }
 .one12 div{
     width: 50%;
     float: left;
     height: 215px;
-    background: url(../出发吧/custom-image1-31182b78bab8fc879e4f115cb2555100.png);
     text-align: center;
     margin:30px 186px;
 }
-.one12 p{
-    margin:0 8px;
+.one16{
     color:#666;
+    float: left;
+    position:absolute;
+    top:930px;
+    left:258px;
 }
-.one12 button{
+.one17{
+    color:#666;
+    float: left;
+    position:absolute;
+    top:950px;
+    left:170px;
+}
+.one18{
     width: 240px;
     height: 80px;
     line-height: 80px;
@@ -196,36 +193,47 @@
     color: #fff;
     border: none;
     border-radius: 4px;
-    margin-top: 30px;
     background:#cdac65;
     cursor:pointer;
+    position:absolute;
+    top:1003px;
+    left:276px;
 }
-.one13{
+
+
+.one24 img{
+    height: 480px;
+    min-width: 980px;
+    margin-top:-352px;
+    margin-left:601px;
+}
+.one20 img{
+    position:absolute;
+    top:682px;
+    left:977px;
+}
+.one20 div{
     width: 50%;
     float: left;
-    height: 480px;
-    background: url(../出发吧/bg1_b-68c61dd6ae370b9cf8571ef216b6bfb3.png);
-    text-align: center;
-    margin:-132px 0;
-}
-.one14{
-    width: 100%;
-    float: left;
-    height: 480px;
-}
-.one14 div{
-     width: 50%;
-    float: left;
     height: 215px;
-    background: url(../出发吧/custom-image2-404bdc688c67366b44ff3c0cc3fd14a4.png);
     text-align: center;
-    margin:30px 185px;
+    margin:30px 186px;
 }
-.one14 p{
-    margin:0 11px;
+.one21{
     color:#666;
+    float: left;
+    position:absolute;
+    top:930px;
+    left:1005px;
 }
-.one14 button{
+.one22{
+    color:#666;
+    float: left;
+    position:absolute;
+    top:950px;
+    left:1065px;
+}
+.one23{
     width: 240px;
     height: 80px;
     line-height: 80px;
@@ -233,45 +241,84 @@
     color: #fff;
     border: none;
     border-radius: 4px;
-    margin-top: 30px;
     background:#3c9;
+    cursor:pointer;
+    position:absolute;
+    top:1003px;
+    left:1069px;
 }
-.one15{
-    font-size: 40px;
-    color: #2d3a40;
-    text-align: center;
-    height: 120px;
-    margin-top:-95px;
-}
-.inner a li img{
-    width:295px;
-    height:475px;
-}
-.detail{
-    height: 160px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: white;
-    padding-left: 30px;
-    padding-top: 63px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.8;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
-}
-.pop-mark{
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 99;
-    background-color: rgba(0,0,0,0.6);
-    width: 100%;
-    height: 475px;
-    text-align: center;
-    display: none;
-}
+// .one13{
+//     width: 50%;
+//     float: left;
+//     height: 480px;
+//     background: url(../出发吧/bg1_b-68c61dd6ae370b9cf8571ef216b6bfb3.png);
+//     text-align: center;
+//     margin:-132px 0;
+// }
+// .one14{
+//     width: 100%;
+//     float: left;
+//     height: 480px;
+// }
+// .one14 div{
+//      width: 50%;
+//     float: left;
+//     height: 215px;
+//     background: url(../出发吧/custom-image2-404bdc688c67366b44ff3c0cc3fd14a4.png);
+//     text-align: center;
+//     margin:30px 185px;
+// }
+// .one14 p{
+//     margin:0 11px;
+//     color:#666;
+// }
+// .one14 button{
+//     width: 240px;
+//     height: 80px;
+//     line-height: 80px;
+//     font-size: 28px;
+//     color: #fff;
+//     border: none;
+//     border-radius: 4px;
+//     margin-top: 30px;
+//     background:#3c9;
+// }
+// .one15{
+//     font-size: 40px;
+//     color: #2d3a40;
+//     text-align: center;
+//     height: 120px;
+//     margin-top:-95px;
+// }
+// .inner a li img{
+//     width:295px;
+//     height:475px;
+// }
+// .detail{
+//     height: 160px;
+//     width: 100%;
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     color: white;
+//     padding-left: 30px;
+//     padding-top: 63px;
+//     font-size: 20px;
+//     font-weight: bold;
+//     line-height: 1.8;
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+//     background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+// }
+// .pop-mark{
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     z-index: 99;
+//     background-color: rgba(0,0,0,0.6);
+//     width: 100%;
+//     height: 475px;
+//     text-align: center;
+//     display: none;
+// }

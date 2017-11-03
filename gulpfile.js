@@ -88,11 +88,12 @@ gulp.task('servers',function(){
     gulp.watch('src/*.html',['html']);
     gulp.watch('src/js/**/*.js',['js']);
     gulp.watch('src/css/*.scss',['style']);
+    gulp.watch('src/images/*.jpg',['imgs']);
 });
 
 // 使用一条命令执行所有任务
 // *****
-gulp.task('default',['servers','html','js','style']);
+gulp.task('default',['servers','html','js','style','imgs']);
 
 
 
